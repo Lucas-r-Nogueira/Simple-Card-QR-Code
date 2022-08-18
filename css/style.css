@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color:hsl(212, 45%, 89%);
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow:5px 5px 30px hsl(220, 15%, 55%);
+}
+
+.container-code-img{
+    width: 320px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 0 auto;
+}
+.container-text{
+    width: 100%;
+
+}
+.container-text .text-title{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    margin: 5% 0 0 10%;
+    text-align: center;
+}
+
+.container-text-text{
+    color: hsl(220, 15%, 55%);
+    height: 70px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}   
+
+.developed{
+    text-align: center;
+}
+
+
+@media (max-width:400px){
+
+
+    .container{
+
+        width: 330px;
+        height: 500px;
+    }
+    .container-code-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .attribution p{
+        text-align: center;
+    }
+}
+
